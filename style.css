@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbarSupportedContent ul li a {
+    color: white;
+}
+
+#navbarSupportedContent ul li a:hover {
+    color: rgba(254, 190, 49, 255);
+    transition-duration: 0.3s;
+}
+
+.navbar-nav li a i{
+    color: white;
+}
+
+.navbar-nav li a i:hover{
+    color: rgba(254, 190, 49, 255);
+    transition-duration: 0.3s;
+}
+
+.navbar-nav li button{
+    background-color: rgba(254,190,49,255);
+}
+
+.navbar-nav li button:hover{
+    background-color: #ffd332;
+    transition-duration: 0.3s;
+    
+}
+
+.banner-content{
+    margin-bottom: 350px;
+    
+}
+
+
+.banner-content h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    text-align: start;
+    margin-left: 30px;
+}
+
+.banner-content p{
+    color: white;
+    font-size: 20px;
+    text-align: start;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.banner-content button{
+    background-color: rgba(254,190,49,255);
+    margin-right:1100px;
+    margin-top: 20px;
+}
+
+.banner-content button:hover{
+    background-color: #ffd332;
+    transition-duration: 0.3s;
+}
+
+.card-body button{
+    background-color: rgba(254,190,49,255);
+    
+}
+
+.card-body button:hover{
+    background-color: #ffd332;
+    transition-duration: 0.3s;
+}
+
+
+.card-image img{
+    transition: transform 0.3s ease-in-out;
+}
+.card-image:hover img{
+    
+    transform: scale(1.1);
+}
+
+.card img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.card{
+    overflow: hidden;
+}
+
+.view-more-button button{
+    background-color: rgba(254,190,49,255);
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.view-more-button button:hover{
+    background-color: #ffd332;
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+}
+
+.menu-demo {
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-demo:hover {
+    transform: scale(1.2);
+}
+
+
+-----------------------------------------------------------------
+
+
+.image-container2 {
+    position: relative;
+  }
+
+.text-overlay2 {
+    position: absolute;
+    transform: translate(0%, -155%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.booking-form {
+    width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 70px;
+  }
+  
+ 
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:55%;
+    position:relative;
+    margin-top: 160px;
+    margin-left: 30px;
+    border-radius: 10px;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height: 450px;
+    width:550px;
+    position:absolute;
+}
+
